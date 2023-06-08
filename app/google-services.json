@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "379934319860",
+    "firebase_url": "https://userdatabase-82d0b-default-rtdb.firebaseio.com",
+    "project_id": "userdatabase-82d0b",
+    "storage_bucket": "userdatabase-82d0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379934319860:android:9858ee40799653b962eaa1",
+        "android_client_info": {
+          "package_name": "com.example.rutrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379934319860-d994gmebrcaql2ml7f14fprm0jmnr882.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChzXORqRvdrOT4ZSSLb7PMMW0S6FLxjAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379934319860-d994gmebrcaql2ml7f14fprm0jmnr882.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

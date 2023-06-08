@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin_or_register_screen"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/icon_imageView"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33"
+        app:srcCompat="@drawable/icon_plane" />
+
+    <TextView
+        android:id="@+id/introductory_phrase"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/introductory_phrase"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_imageView"
+        app:layout_constraintVertical_bias=".0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_register"
+        style="@style/DarkButton"
+        android:layout_marginTop="108dp"
+        android:text="@string/register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introductory_phrase"
+        android:onClick="registerUser"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_signin"
+        style="@style/LightButton"
+        android:layout_width="310dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/sign_in"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_register"
+        android:onClick="signInUser"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RuTrip</string>
+    <string name="introductory_phrase">Начни путешествие по России прямо сейчас!</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="sign_in">Войти</string>
+    <string name="register_2">Регистрация</string>
+    <string name="sign_in_2">Вход</string>
+    <string name="name_client">Имя</string>
+    <string name="email_client">Email</string>
+    <string name="password_client">Пароль</string>
+    <string name="popular_cities_in_russia">Популярные города России</string>
+    <string name="search">Поиск</string>
+    <string name="search_in_russia">Поиск города в России</string>
+    <string name="wish_list">Wish лист</string>
+    <string name="sign_out">Выйти</string>
+    <string name="profile">Профиль</string>
+    <string name="telegram_bot">Телеграм бот</string>
+    <string name="support">Поддержка</string>
+    <string name="change">Редактировать</string>
+    <string name="update_profile">Редактировать профиль</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="city_client">Город проживания</string>
+    <string name="common">Общее</string>
+    <string name="places">Места</string>
+    <string name="souvenirs">Сувениры</string>
+    <string name="admin">Города из базы данных</string>
+</resources>
